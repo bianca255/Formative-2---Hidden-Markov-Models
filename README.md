@@ -1,12 +1,12 @@
 # Formative 2: Modeling Human Activity States with a Hidden Markov Model
 
-Individual submission. A Gaussian-emission HMM implemented from scratch in NumPy (Viterbi decoding and Baum-Welch training with a log-likelihood convergence check) to infer four activities from smartphone accelerometer and gyroscope data: **standing, walking, jumping, still**.
+A Gaussian-emission HMM implemented from scratch in NumPy (Viterbi decoding and Baum-Welch training with a log-likelihood convergence check) to infer four activities from smartphone accelerometer and gyroscope data: **standing, walking, jumping, still**.
 
 ## Repository structure
 ```
 data/                          training clips (38 CSV files, 6 s each)
 data_test/                     unseen test clips from separate recording sessions (29 CSV files)
-hmm_activity_recognition.ipynb notebook with outputs
+Formative_2.ipynb notebook with outputs
 report.pdf                     short report (4-5 pages)
 ```
 
@@ -16,10 +16,6 @@ report.pdf                     short report (4-5 pages)
 - Each long recording was trimmed by 3 s at both ends and cut into 6 s clips.
 - `data_test/` clips come from separate recording takes that were never used for training.
 
-## How to run
-1. Open `hmm_activity_recognition.ipynb` in Jupyter or Google Colab with `data/` and `data_test/` next to it.
-2. In Colab, skip the Drive setup cell if you upload the folders directly.
-3. Run all cells.
 
 ## Videos
 | Activity | Link |
