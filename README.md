@@ -7,7 +7,7 @@ A Gaussian-emission HMM implemented from scratch in NumPy (Viterbi decoding and 
 data/                          training clips (38 CSV files, 6 s each)
 data_test/                     unseen test clips from separate recording sessions (29 CSV files)
 Formative_2.ipynb notebook with outputs
-report.pdf                     
+Formative 2-Report.pdf                     
 ```
 
 ## Data
